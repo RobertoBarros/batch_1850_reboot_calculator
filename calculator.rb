@@ -3,9 +3,11 @@ while answer == 'yes'
   # 1. Pedir o primeiro número
   puts "Please enter the first number"
   first_number = gets.chomp.to_i
+
   # 2. Pedir o segundo número
   puts "Please enter the second number"
   second_number = gets.chomp.to_i
+
   # 3. Pedir qual a operação [+ - / *]
   puts "Which operation do you want to perform ?"
   operation = gets.chomp
@@ -26,7 +28,5 @@ while answer == 'yes'
 
   puts "any other operation? yes or no"
   answer = gets.chomp
-
-
 end
 puts 'obrigado por usar nossa calculadora'
